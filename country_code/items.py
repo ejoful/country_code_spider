@@ -13,6 +13,9 @@ class CountryCodeItem(scrapy.Item):
     # name = scrapy.Field()
     # 国家名字
     country_name = scrapy.Field()
+    # 国家名缩写
+    iso_codes1 = scrapy.Field()
+    iso_codes2 = scrapy.Field()
     # 国家代号
     country_code = scrapy.Field()
     # 位置
